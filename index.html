@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/191ce6a796.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-image" src="https://raw.githubusercontent.com/YoussefSherif10/product-landing/main/Screenshot%20from%202020-12-01%2013-03-17.png" alt="Logo">
+            <h1>Original Meat</h1>
+            <div id="links">
+                <a class="nav-link btn btn-success" href="#features">Features</a>
+                <a class="nav-link btn btn-success" href="#vid">See Yourself</a>
+                <a class="nav-link btn btn-success" href="#payment">Pricing</a>
+            </div>
+        </nav>
+    </header>
+
+    <form id="form">
+        <label for="email">
+            <strong> 100% Natural products, Organic</strong><br>
+            <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+        </label>
+        <button id="submit" type="submit" class="btn btn-success">GET STARTED</button>
+    </form>
+
+    <section id="features">
+        <div class="icons">
+            <i id="fire" class="fa fa-3x fa-fire"></i>
+        </div>
+        <div id="quality-p" class="desc">
+            <h2><strong> High quality meat</strong></h2><br>
+            <p>On our farm, we take special care of the cows. It is important for us to keep them clean and healthy. </p>
+        </div>
+
+        <div class="icons">
+            <i id="truck" class="fa fa-3x fa-truck"></i>
+        </div>
+        <div id="ship-p" class="desc">
+            <h2><strong> Fast shipping</strong></h2><br>
+            <p>No more grocery shopping. We offer you fast shipping in which you can order where ever you are and track your meat.</p>
+        </div>
+
+        <div class="icons">
+            <i id="battery" class="fa fa-3x fa-battery-full"></i>
+        </div>
+        <div id="ass-p" class="desc">
+            <h2><strong> Quality assurance</strong></h2><br>
+            <p>For every purchase you make, we will ensure there are no damages or faults.</p>
+        </div>
+    </section>
+
+    <section id="vid">
+        <video style="width: 640px; height: 360px;" src="https://raw.githubusercontent.com/YoussefSherif10/product-landing/main/Steak%20Degrees%20of%20Doneness%20Temperature%20Guide.mp4" type="video/mp4" controls></video>
+    </section>
+
+    <section id="payment">
+        <div id="first-option">
+            <h2><strong>  Kilo</strong></h2>
+            <h3>50$</h3>
+            <button class="btn btn-success">Select</button>
+        </div>
+        <div id="second-option">
+            <h2><strong> Two Kilos</strong></h2>
+            <h3>80$</h3>
+            <button class="btn btn-success">Select</button>
+        </div>
+        <div id="third-option">
+            <h2><strong>  Number of Kilos</strong></h2>
+            <h3>Minimum is three kilos</h3>
+            <form id="input-kilos">
+                <input type="number" value="kilos" name="kilos" min="3" required>
+                <button class="btn btn-success" type="submit">Select</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <strong>Privacy &nbsp; Terms &nbsp; Contact </strong>
+        <p id="copyright">Copyright 2020, Original meat farm</p>
+    </footer>
+
+</body>
+
+</html>
